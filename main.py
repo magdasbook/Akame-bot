@@ -65,7 +65,7 @@ async def jw(ctx, *, question):
 
 @bot.command(name='k')
 async def k(ctx, *, question):
-  respondes = ['https://media.tenor.com/images/593140d25dcd8e2f6afb7b5a5981c919/tenor.gif', 'https://steamuserimages-a.akamaihd.net/ugc/911283084454613080/2F314F856BFAB573A80D32E95729ED67297B32CC/', 'https://thumbs.gfycat.com/AnimatedTepidAfricanfisheagle-small.gif', 'https://i.imgur.com/G9EVXbZ.gif']
+  respondes = ['https://media.tenor.com/images/593140d25dcd8e2f6afb7b5a5981c919/tenor.gif', 'i hyc o podłoge https://thumbs.gfycat.com/GiddyLawfulBergerpicard-size_restricted.gif', 'https://i.gifer.com/M2qo.gif' , 'https://thumbs.gfycat.com/AnimatedTepidAfricanfisheagle-small.gif', 'https://i.imgur.com/G9EVXbZ.gif']
   await ctx.send(f'Question: {question}\nAnswer: {random.choice(respondes)}')
 
 @bot.command(name='h')
@@ -102,6 +102,46 @@ async def sr(ctx, *, question):
 async def komendy(ctx):
   await ctx.send(' prefiks "a." po prefiksie piszesz w zależności od komendy, którą chcesz wywołać. Komendy: "hey"- bot się wita, "pa" - bot się żegna, "liczba" - liczba wysłanych wiadomości, """pos" + po spacji pytanie o samopoczucie"- pyta o samopoczucie bota, "ban + wzmianka członka" - wiadoma funkcja, "unban + wzmianka" - wiadome, "clear"- usuwa ostatnie 5 wiadomości, "jw + po spacji pytanie o wygląd akame", "k + pytanie o zabijanie po spacji" -  wyświetla giphy z zabijaniem w odp, "h + pytanie o przytualenie lub hug po prostu po spacji" - przytula lub nie, "kc + pytanie o to czy cie kocha", "uwu"- wysyła gipha uwu, "d + po spacji podziękuj lub coś z dziękowaniem", "kcs + pytanie kto cię stworzył po spacji" - pytanie o stwórce, "sr + przeproś" - przeprasza')
   
+
+
+@bot.command()
+async def glupigadzet(ctx):
+  await ctx.send(' ja kiedy głupi gadżet  https://i.pinimg.com/originals/2c/94/5a/2c945adbbc31699861f411f86ce8058f.gif')
+
+@bot.command(name='f')
+async def f(ctx, *, question):
+  respondes = ['to jest Mine https://i.pinimg.com/originals/3a/53/da/3a53da6de9d7d4dd5bbd7b7c80cb917a.gif', 'to jest Tatsumi https://i.pinimg.com/originals/4a/d2/b3/4ad2b35ff4b0d5095a883fd028a08171.gif', 'To jest Chelsea https://i.pinimg.com/originals/fd/a4/dc/fda4dc5acf391298eed08e978eb07e21.gif', 'To jest Leone https://media1.tenor.com/images/32a6cba654620ebf91d685cd1d33110a/tenor.gif?itemid=16396218', 'To jest Sheele https://i.pinimg.com/originals/cd/b1/6c/cdb16ceecac03648689cf32561196508.gif', 'to jest Lubbock https://media1.tenor.com/images/29284ee2b2c916d636e499b4c102bfd6/tenor.gif?itemid=5001375', 'To jest Najenda - szefowa https://64.media.tumblr.com/a989692482ad43142f8ad26ec4ce7851/tumblr_nyjheww7qO1ulh7tvo2_500.gifv', 'To jest Bulat https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5p8WsYib9wtVs988ulng1mFbBKP1etF3Iow&usqp=CAU']
+  await ctx.send(f'Question: {question}\nAnswer: {random.choice(respondes)}')
+
+@bot.command(name='pb')
+async def pb(ctx, *, question):
+  respondes = ['nie ma sprawy  https://media.tenor.com/images/854a8d51d6892afde1cd0631f0afd981/tenor.gif', 'prosze bardzo https://media.tenor.com/images/854a8d51d6892afde1cd0631f0afd981/tenor.gif', 'Co mam powiedzieć prócz DROBNOSTKA https://i.pinimg.com/originals/c2/ac/9d/c2ac9d3973ddf50ae22332a9f89aae8a.gif', 'masz za co https://giffiles.alphacoders.com/148/148507.gif']
+  await ctx.send(f'Question: {question}\nAnswer: {random.choice(respondes)}')
+
+@bot.command(name='tn')
+async def pb(ctx, *, question):
+  respondes = ['tak', 'nie', 'można jak najbardziej', 'nigdy w życiu', 'ultra rel', 'rel', 'nie rel']
+  await ctx.send(f'Question: {question}\nAnswer: {random.choice(respondes)}')
+
+@bot.command(name='xd')
+async def xd(ctx, *, question):
+  respondes = ['xd', 'XD', 'Xd', 'xD', 'xddddddd', 'XDDDDDDDD', 'xddd https://i.imgflip.com/1amn5g.gif', 'XDDDDDDD https://forum.psnprofiles.com/applications/core/interface/imageproxy/imageproxy.php?img=https://66.media.tumblr.com/cf1ddeda9fed34676a62cab8acd7c88e/tumblr_nyhn4tq2EH1twyezqo1_r1_500.gif&key=5da2d02d5c0281a447ff6200143514a2c7f3e61aef9c2b0253841d3548728e85' ]
+  await ctx.send(f'Question: {question}\nAnswer: {random.choice(respondes)}')
+
+@bot.command(name='wm')
+async def wm(ctx, *, question):
+  respondes = ['ale jak to mamo?', 'lepiej sie wstydź siebie', 'hahahahahahah beka z cb', 'mamoooo nie wstydź sie mnie', 'ale mamooooooo']
+  await ctx.send(f'Question: {question}\nAnswer: {random.choice(respondes)}')
+
+@bot.command(name='wdm')
+async def wdm(ctx, *, question):
+  respondes = ['obecuje poprawe', 'poprawe sie mamoo, kc', 'spadaj stara', 'zostaw mnie', 'bede lepszym dzieckiem']
+  await ctx.send(f'Question: {question}\nAnswer: {random.choice(respondes)}')
+
+@bot.command(name='ko')
+async def ko(ctx, *, question):
+  respondes = ['nie wyzywaj mnie', 'chyba ty', 'dobra sory już nie bede', 'spadaj', 'nie jesteś moją matką', 'moge robić co chce']
+  await ctx.send(f'Question: {question}\nAnswer: {random.choice(respondes)}')
 
 token = os.environ.get('TOKEN')
 print(token)
